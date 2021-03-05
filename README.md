@@ -2,7 +2,6 @@
 
 Stochastic Dynamic Optimization Sandbox for an overwintering beetle
 Andre Szejner Sigal
-Collaborators: Irja Ratikainen, Oystein Varpe, Caroline Williams
 March 2021
 
 
