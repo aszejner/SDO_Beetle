@@ -1,0 +1,71 @@
+Flow of GitHub and RStudio
+Andre Szejner-Sigal 
+March 2021
+
+
+NOTE: Tips and tricks are from the "Happy Git and GitHub for the useR" by Jenny Bryan, the STAT 545 TAs, and Jim Hester.
+
+General steps/tips
+-Create and link a Repository (repo) to GitHub, RStudio, and Kraken (optional)
+-Add all files, folders, etc. to the local repo directory
+-Commit, Stage all files, and Push to Hub
+
+Never modify the Master branch if you are a collab
+-Make a branch, work on that branch step-wise saves/edits, once that part is really done, merge back into the Master
+
+Branches have a theme
+-Have a branch for methods, have another branch for a new doc e.g. "new idea/test on...", have a branch for an analysis, etc.
+
+Commits are basically equivalent to 'Test.v3.4.1.feb.28.2021'
+Commits are 'saves' on the branch. 
+Push is a 'sync' to the Hub
+
+NEVER HAVE A REPO INSIDE A REPO
+
+If you edit remotely (via Hub) or collabs work on the same project synchronously:
+Always Pull first (to update your local repo to any changes done remotely) and then push any new commits you have. This will decrease headaches.
+
+
+
+##################################################
+Version Control in RStudio and Git (CH9)
+
+For all new projects:
+-GitHub.com, make a new repo (Always have the README.md enabled) and clone the https link
+-Open the GitBash terminal in RStudio (should be set under tools>globalsettings)
+-RStudio, start a new project from file>new project>version control> git. Put the https url, and set directory
+-Create Project, and this will be the folder in PC, github repo, and rstudio project
+-Update the Kraken too (optional)
+
+Modify files, save when modifying it.
+But you need to commit. Use the Git tab (environment panel in Rstudio)
+Click the staged box of the file(s) you want to commit, click commit
+In the commit message write the commit name, click commit (recommend to do this multiple times a day)
+When ready, click the pull button (will take any online changes from before/collabs, etc), once updated, click the push button (moves new changes online)
+
+For existing projects:
+If you already have the whole folder full of stuff:
+Go to GitHub.com, make a new repo, make a new project in RStudio, and move files into this new directory, stage all the files to be sent to GitHub, and commit them. Finally, push.
+
+
+
+##################################################
+What if... Need to pull, but you have local work...
+If there is no overlap at all, just pulling before commiting the new changes might work.
+If Remote is A--B--C and Local is A--B--D... 
+Just pull and merge (cross your fingers). Resolve conflicts by hand, makes a hybrid. Messy but good enough for now (?). 
+I lean more towards a temporary branch everywhere (?), might make less messy?
+
+Miscellaneous 
+To edit the README.md file from the terminal:
+echo "A line I wrote on my local computer" >> README.md
+git add -A
+git commit -m "A commit from my local computer"
+git push
+
+To remove repos
+Remove locally (like any file, know the directory)
+Remove from GitHub, from repo landing page, settings, delete repo
+
+Maybe (?) Make sure the cd in GitBash terminal is the correct place where the repo will be (probably already set)
+
