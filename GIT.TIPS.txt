@@ -2,7 +2,6 @@ Flow of GitHub and RStudio
 Andre Szejner-Sigal 
 March 2021
 
-
 NOTE: Tips and tricks are from the "Happy Git and GitHub for the useR" by Jenny Bryan, the STAT 545 TAs, and Jim Hester.
 
 General steps/tips
@@ -46,6 +45,19 @@ When ready, click the pull button (will take any online changes from before/coll
 For existing projects:
 If you already have the whole folder full of stuff:
 Go to GitHub.com, make a new repo, make a new project in RStudio, and move files into this new directory, stage all the files to be sent to GitHub, and commit them. Finally, push.
+
+
+
+
+##################################################
+To collaborate on someone's repo (create a pull request etiquette)
+
+step 1: fork the random repo (copies it into your gitHub)
+step 2: make a branch (with the theme of the edits you want to do)
+step 3: save and commit the edits (use clear descriptions)
+step 4: push to your hub branch
+step 5: compare and pull request
+step 6: write message of edits, and send
 
 
 
