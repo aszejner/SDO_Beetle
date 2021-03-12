@@ -32,7 +32,7 @@ Version Control in RStudio and Git (CH9)
 
 For all new projects:
 -GitHub.com, make a new repo (Always have the README.md enabled) and clone the https link
--Open the GitBash terminal in RStudio (should be set under tools>globalsettings)
+-Make sure you have the GitBash terminal open in RStudio (should be set under tools>globaloptions)
 -RStudio, start a new project from file>new project>version control> git. Put the https url, and set directory
 -Create Project, and this will be the folder in PC, github repo, and rstudio project
 -Update the Kraken too (optional)
