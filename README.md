@@ -1,9 +1,6 @@
 # SDO_Beetle
 
  Stochastic Dynamic Optimization Sandbox for an overwintering beetle
- Andre Szejner Sigal
- March 2021
-
 
  Here you will find:
  
